@@ -64,8 +64,8 @@ header > h1, header > h2 {
 }
 
 p {
-  font-family: var(--paragraph-font);
-  color: var(--paragraph-color-on-white);
+  font-family: "Roboto+Slab", "Helvetica", "sans-serif";
+  color: #000000;
   padding: 1em;
 }
 .colors {
