@@ -33,8 +33,8 @@ nav a {
   padding: 35px;
 }
 nav a:hover {
-  background-color: #015b07;
-  color: blue;
+  background-color: #000000;
+  color: #DFF2D8;
   text-align: center;
 }
 #show {
@@ -139,8 +139,8 @@ footer a {
   text-decoration: none;
 }
 footer p a:hover {
-  background-color: #DFF2D8;
-  color: #015b07;
+  background-color: #000000;
+  color: #DFF2D8;
 }
 footer p {
   font-size: 1.2em;
