@@ -86,7 +86,7 @@ main section img {
 
 .explore{
   background-color: #015b07;
-  grid-column: 2/3;
+  grid-column: 2/4;
   color: paleturquoise;
   text-decoration: none;
   font-size: 18px;
@@ -101,7 +101,7 @@ main section img {
 
 .msg {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   background-color: #DFF2D8;
   line-height: 1.5em;
   margin: 100px;
@@ -111,13 +111,13 @@ main section img {
   box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
-  grid-column: 1/4;
+  grid-column: 1/7;
   background-color: #DFF2D8;
   color: #015b07;
   font-family:"Roboto+Slab", Helvetica, sans-serif;
 }
 .msg p {
-  grid-column: 1/4;
+  grid-column: 1/6;
   grid-row: 2/3;
   background-color: #DFF2D8;
   color: #015b07;
@@ -208,9 +208,7 @@ h4 {
 }
 .twoWomen {
   margin: 100px 0 100px 0;
-  width: 40%;
-  grid-column: 2/7;
-  grid-row: 5/8;
+  width: 50%;
   box-shadow: 5px 5px 10px #6f7364;
 }
 #bottom-display{
