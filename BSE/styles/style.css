@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Julee&family=Roboto+Slab&display=swap');
 body {
   font-size: 22px;
-  background-color: #1926b3;
+  background-color: #DFF2D8;
   color: #015b07;
   margin: 0;
   padding: 0;
@@ -80,8 +80,8 @@ main section img {
   border-radius: 5px;
 }
 .shop:hover {
-  background-color: paleturquoise;
-  color: #1926b3;
+  background-color: #000000;
+  color: #DFF2D8;
 }
 
 .explore{
@@ -95,8 +95,8 @@ main section img {
   border-radius: 5px;
 }
 .explore:hover {
-  background-color: paleturquoise;
-  color: red;
+  background-color: #000000;
+  color: #DFF2D8;
 }
 
 .msg {
@@ -126,7 +126,7 @@ main section img {
 }
 
 footer {
-  background-color: #DFF2D8;
+  background-color: rgb(0,0,255,0.3);
   color: #015b07;
   padding: 25px 50px;
   margin-top: 200px;
@@ -135,13 +135,12 @@ footer {
   align-items: center;
 }
 footer a {
-  background-color: #DFF2D8;
   color: #015b07;
   text-decoration: none;
 }
 footer p a:hover {
-  background-color: blue;
-  color: #DFF2D8;
+  background-color: #DFF2D8;
+  color: #015b07;
 }
 footer p {
   font-size: 1.2em;
@@ -156,7 +155,7 @@ footer .social img {
 .home-title {
   color: #000000 ;
   font-family: "Julee", Helvetica, sans-serif;
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 20px;
 }
 .home-grid {
@@ -171,7 +170,7 @@ h4 {
   font-family: "Julee", Helvetica, sans-serif;
   color: #000000;
   margin-bottom: 30px;
-  margin-top: -20px;
+  margin-top: -50px;
 }
 .logo {
   width: 80px;
