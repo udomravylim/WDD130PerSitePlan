@@ -25,7 +25,57 @@
         </header>
         <div id="show">
             <div id="show-box">
-                <img id="show-img" src="images/lucas-hoang-ojZ4wJNUM5w-unsplash.jpg" alt="show cloths">
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                        <div class="numbertext">1 / 3</div>
+                        <img src="images/rsz_1brooke-cagle-z1b9f48f5dc-unsplash.jpg" style="width:100%">
+                        <div class="text">Matching group outfits</div>
+                    </div>
+        
+                    <div class="mySlides fade">
+                        <div class="numbertext">2 / 3</div>
+                        <img src="images/rsz_1cesar-la-rosa-hbaddptme1q-unsplash.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+        
+                    <div class="mySlides fade">
+                        <div class="numbertext">3 / 3</div>
+                        <img src="images/rsz_1tamara-bellis-68cspwtnafo-unsplash.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+        
+                </div>
+                <br>
+        
+                <div style="text-align:center">
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+        
+                <script>
+                    let slideIndex = 0;
+                    showSlides();
+        
+                    function showSlides() {
+                        let i;
+                        let slides = document.getElementsByClassName("mySlides");
+                        let dots = document.getElementsByClassName("dot");
+                        for (i = 0; i < slides.length; i++) {
+                            slides[i].style.display = "none";
+                        }
+                        slideIndex++;
+                        if (slideIndex > slides.length) { slideIndex = 1 }
+                        for (i = 0; i < dots.length; i++) {
+                            dots[i].className = dots[i].className.replace(" active", "");
+                        }
+                        slides[slideIndex - 1].style.display = "block";
+                        dots[slideIndex - 1].className += " active";
+                        setTimeout(showSlides, 2000); // Change image every 2 seconds
+                    }
+                </script>
+        
 
             </div>
             <section id="show-msg">
@@ -38,6 +88,11 @@
 
         </div>
 
+       
+
+
+
+
         <main class="home-grid">
             <section class="men-card">
                 <img class="card-img" src="./images/karina-carvalho-fKTKVrNqXQQ-unsplash.jpg" alt="Men session">
@@ -47,24 +102,25 @@
                 <img class="card-img" src="./images/alex-sheldon-p63g4kQAt_4-unsplash.jpg" alt="Women session">
                 <h2>Women section</h2>
             </section>
-            
+
         </main>
+
         <div id="bottom-display">
-            <img class="twoWomen" src="./images/yanapi-senaud-wEy8TRGUuLY-unsplash.jpg" alt="Two women walking">
-                <section class="msg">
-                    <h2>More than Just Online Shopping</h2>
-                    <p>
-                        Best Store Ever offers a wide variety of clothing options, personalized recommendations and
-                        customization
-                        options, competitive pricing, and a user-friendly website design. Customers can browse
-                        inventory, make purchases,
-                        sign up for newsletters, and contact customer support. This website provides a convenient and
-                        enjoyable shopping
-                        experience for customers looking to upgrade their wardrobe with stylish, high-quality clothing
-                        options.
-                    </p>
-                    <a class="explore" href="men.html">Find Your Styles</a>
-                </section>
+            <img class="twoWomen" src="./images/rsz_tiko-giorgadze-llovwbahu5e-unsplash.jpg" alt="Two women walking">
+            <section class="msg">
+                <h2>More than Just Online Shopping</h2>
+                <p>
+                    Best Store Ever offers a wide variety of clothing options, personalized recommendations and
+                    customization
+                    options, competitive pricing, and a user-friendly website design. Customers can browse
+                    inventory, make purchases,
+                    sign up for newsletters, and contact customer support. This website provides a convenient and
+                    enjoyable shopping
+                    experience for customers looking to upgrade their wardrobe with stylish, high-quality clothing
+                    options.
+                </p>
+                <a class="explore" href="men.html">Find Your Styles</a>
+            </section>
         </div>
         <footer>
             <p id="copyright">Best Store Ever&copy;2023-Ravy Lim</p>
