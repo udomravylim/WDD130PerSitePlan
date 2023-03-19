@@ -88,7 +88,7 @@ main section img {
 
 .explore{
   background-color: #015b07;
-  grid-column: 2/4;
+  grid-column: 3/8;
   color: paleturquoise;
   text-decoration: none;
   font-size: 18px;
@@ -103,23 +103,21 @@ main section img {
 
 .msg {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(10,1fr);
   background-color: #DFF2D8;
   line-height: 1.5em;
   margin: 100px;
   padding: 35px;
-  grid-column: 6/10;
-  grid-row: 6/7;
   box-shadow: 5px 5px 10px #6f7364;
 }
 .msg h2 {
-  grid-column: 1/7;
+  grid-column: 1/10;
   background-color: #DFF2D8;
   color: #015b07;
   font-family:"Roboto+Slab", Helvetica, sans-serif;
 }
 .msg p {
-  grid-column: 1/6;
+  grid-column: 1/10;
   grid-row: 2/3;
   background-color: #DFF2D8;
   color: #015b07;
