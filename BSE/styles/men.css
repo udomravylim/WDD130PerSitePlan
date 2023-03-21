@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Julee&family=Roboto+Slab&display=swap');
+
+body {
+    font-size: 22px;
+    background-color: #DFF2D8;
+    color: #015b07;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: rgb(0, 0, 255, 0.3);
+    color: #015b07;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #015b07;
+    text-align: center;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: #DFF2D8;
+    text-align: center;
+}
+
+footer {
+    background-color: rgb(0, 0, 255, 0.3);
+    color: #015b07;
+    padding: 25px 50px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #015b07;
+    text-decoration: none;
+}
+
+footer p a:hover {
+    background-color: #000000;
+    color: #DFF2D8;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.home-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.card-img {
+    max-width: 100%;
+    border: 2px solid #DFF2D8;
+    transition: transform 0.5s;
+    box-shadow: 5px 5px 10px #6f7364;
+    text-align: center;
+}
+
+.card-img:hover {
+    opacity: 0.7;
+    transform: scale(1.03);
+}
+
+.men-card1 {
+    grid-column: 1/2;
+}
+
+.style {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
